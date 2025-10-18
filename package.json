@@ -1,0 +1,17 @@
+{
+  "name": "mario-platform-game",
+  "version": "1.0.0",
+  "description": "A responsive Mario-style platform game built with HTML, CSS, JavaScript and LittleJS",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["game", "platform", "mario", "littlejs", "responsive"],
+  "author": "Platform Game Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.3.9"
+  }
+}
