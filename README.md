@@ -1,4 +1,4 @@
-# Mario Platform Adventure 🍄
+# Jumping Jack Platform Adventure 🍄
 
 A responsive, cross-platform Mario-style platform game built with HTML5, CSS3, JavaScript, and LittleJS engine. Features 3 challenging levels, collectible gems, enemies, and works seamlessly across all devices and browsers.
 
