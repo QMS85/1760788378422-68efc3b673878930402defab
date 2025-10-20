@@ -93,21 +93,19 @@ body {
     transform: scale(1.05);
 }
 
-/* Desktop visibility for testing */
-@media (min-width: 769px) {
+/* Hide mobile controls on desktop - use keyboard instead */
+@media (min-width: 1025px) {
     #mobileControls {
-        display: block !important;
-        opacity: 0.7;
+        display: none !important;
     }
-    
-    .control-btn:hover {
-        opacity: 1;
-    }
-}
-.screen.hidden {
-    display: none;
 }
 
+/* Show controls on tablets and mobile only */
+@media (max-width: 1024px) {
+    #mobileControls {
+        display: block !important;
+    }
+}
 .screen-content {
     max-width: 90%;
     padding: 20px;
