@@ -12,6 +12,6 @@
   "author": "Platform Game Developer",
   "license": "MIT",
   "devDependencies": {
-    "vite": "^4.3.9"
+    "vite": "^7.1.11"
   }
 }
